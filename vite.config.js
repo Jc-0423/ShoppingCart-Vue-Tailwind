@@ -8,7 +8,7 @@ export default defineConfig({
   plugins: [
     vue(),
   ],
-  base: '/',
+  base: 'ShoppingCart-Vue-Tailwind',
   resolve: {
     alias: {
       '@': fileURLToPath(new URL('./src', import.meta.url))
